@@ -1,0 +1,13 @@
+body{
+    font-family: sans-serifactive;
+    color: aqua;
+        
+}
+h1{color: brown }
+h2{color: cornflowerblue}
+ul{color: darkorange}
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
