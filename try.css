@@ -7,7 +7,7 @@ h1 {
     font-family: font-family: 'Suez One', serif;
     ;
     color: brown;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 700
 }
 
@@ -16,7 +16,7 @@ p {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
     color: forestgreen
 }
@@ -43,12 +43,39 @@ li {
     font-weight: 400;
 }
 
-h3 {
-    font-size: 30px;
+60 h3 {
+    font-size: 20px;
+    font-weight: 500;
 
 }
 
 .containter {
     max-width: 810px;
     margin: auto;
+}
+
+.cta {
+    background: Beige;
+    font-size: 21px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.cta h3 {
+    font-size: 25px;
+    color: darkgreen;
+}
+
+.bottom {
+    background: red;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 8px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+
 }
