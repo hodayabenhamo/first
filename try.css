@@ -12,13 +12,14 @@ h1 {
 }
 
 p {
-    font-size: 20px
+    font-size: 20px;
+    color:beige
 }
 
 h2 {
     font-size: 40px;
     font-weight: 500;
-    color: forestgreen
+    color: white;
 }
 
 ul {
@@ -57,7 +58,6 @@ li {
 .cta {
     background: #d9b067;
     font-size: 21px;
-    text-align: center;
     padding: 20px;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -66,13 +66,12 @@ li {
 
 .cta h3 {
     font-size: 25px;
-    color: darkgreen;
+    color: brown;
 }
 
-.bottom {
-    background: #edeee7;
+.bottom {background: darkgreen;
     text-decoration: none;
-    color: #6e6e5d;
+    color: white;
     padding: 8px;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -87,4 +86,25 @@ li {
 }
 .cta{
     overflow: hidden
+}
+.container {
+    max-width: 800px;
+    margin: auto;    
+}
+
+.news {
+  padding: 60px;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/text.jpg);
+  background-position:center;
+    background-size: cover;
+}
+
+}
+
+ {
+    
+}
+
+label {
+    color: aliceblue
 }
