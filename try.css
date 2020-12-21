@@ -13,13 +13,17 @@ h1 {
 
 p {
     font-size: 21px;
-    color:white;
+    color:white; 
+    margin-top: auto
+
 }
 
 h2 {
     font-size: 40px;
     font-weight: 500;
     color: white;
+     margin-bottom: 10px;
+
 }
 
 ul {
@@ -111,6 +115,7 @@ label {
     color: aliceblue;
     margin-bottom: 20px;
     display: block;
+    
 }
 
 input {
