@@ -12,8 +12,8 @@ h1 {
 }
 
 p {
-    font-size: 20px;
-    color:beige
+    font-size: 21px;
+    color:white;
 }
 
 h2 {
@@ -97,6 +97,8 @@ li {
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/text.jpg);
   background-position:center;
     background-size: cover;
+    text-align: center;
+    
 }
 
 }
@@ -106,5 +108,43 @@ li {
 }
 
 label {
-    color: aliceblue
+    color: aliceblue;
+    margin-bottom: 20px;
+    display: block;
+}
+
+input {
+
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 1px solid #fff ;
+    padding: 5px;
+
+}
+
+.botton {
+        border:2px solid white;
+    color:white;
+}
+
+
+
+span {
+}
+
+form {
+    font-size:16px;
+}
+
+.button {
+    padding: 5px 20px ;
+    background: #fff;
+    display: block;
+    margin: auto;
+    border-radius: 10px;    cursor: pointer;
+
+}
+.button:hover {
+    color:limegreen;
 }
