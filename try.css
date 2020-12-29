@@ -6,23 +6,22 @@ body {
 h1 {
     font-family: font-family: 'Suez One', serif;
     ;
-    color:#a92c32;
+    color: #a92c32;
     font-size: 50px;
     font-weight: 700
 }
 
 p {
     font-size: 21px;
-    color:white; 
+    color: white;
     margin-top: auto
-
 }
 
 h2 {
     font-size: 40px;
     font-weight: 500;
     color: white;
-     margin-bottom: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -73,14 +72,15 @@ li {
     color: brown;
 }
 
-.bottom {background: darkgreen;
+.bottom {
+    background: darkgreen;
     text-decoration: none;
     color: white;
     padding: 8px;
     margin-top: 50px;
     margin-bottom: 20px;
 
-}    
+}
 
 .alignleft {
     float: left;
@@ -88,68 +88,77 @@ li {
     max-width: 250px;
     margin-left: 10px;
 }
-.cta{
+
+.cta {
     overflow: hidden
 }
+
 .container {
-    max-width: 800px;
-    margin: auto;    
+    max-width: 900px;
+    margin: auto;
 }
 
 .news {
-  padding: 60px;
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/text.jpg);
-  background-position:center;
+    padding: 60px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/text.jpg);
+    background-position: center;
     background-size: cover;
     text-align: center;
-    
-}
 
 }
 
- {
-    
 }
+
+    {}
 
 label {
     color: aliceblue;
     margin-bottom: 20px;
     display: block;
-    
+
 }
 
 input {
 
-  font: inherit;
-  color: inherit;
-  background: none;
-  border: 1px solid #fff ;
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: 1px solid #fff;
     padding: 5px;
 
 }
+input:focus {
+  outline: 0;
+  background: rgba(0,0,0,0.2);
+}
+
+
 
 .botton {
-        border:2px solid white;
-    color:white;
+    border: 2px solid white;
+    color: white;
 }
 
 
 
-span {
-}
+span {}
 
 form {
-    font-size:16px;
+    font-size: 16px;
 }
 
 .button {
-    padding: 5px 20px ;
+    padding: 5px 20px;
     background: #fff;
     display: block;
     margin: auto;
-    border-radius: 10px;    cursor: pointer;
+    border-radius: 10px;
+    cursor: pointer;
 
 }
+
 .button:hover {
-    color:limegreen;
+    color: limegreen;
+
+    
 }
