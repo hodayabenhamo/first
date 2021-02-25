@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'opensans';
+  src: url('fonts/opensans/400/opensanshebrew-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'opensans';
+  src: url('fonts/opensans/700/opensanshebrew-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OS Aran_400FFC';
+  src: url('fonts/aran/os_aran_400ffc-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OS Aran_W_500FFC';
+  src: url('fonts/aran/os_aran_w_500ffc-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  background:#000;
+    color: #fff;
+    margin: 0;
+  font-family: 'OS Aran_W_500FFC','OS Aran_400FFC','opensans', sans-serif;
+  line-height: 1.5;
+}
+@font-face {
+  font-family:'carmela' ;
+  src: url('fonts/carmela/400/carmela.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+h1{ 
+    font-size: 50px;
+    font-family:OS Aran_W_500FFC;
+    font-weight: 500;
+}
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+p {
+    font-family:OS Aran_400FFC;
+    font-weight: 400;
+    font-size: 30px;
+}
