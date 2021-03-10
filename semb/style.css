@@ -42,23 +42,28 @@ img{
 }
 h1{ font-size: 50px;
     font-family:OS Aran_W_500FFC;
-    font-weight: 500;}
+    font-weight: 500;
+color: #fff;}
 h1:after{
     content: "";
-    border-bottom: 2px solid #7c2729;
+    border-bottom: 2px solid #7c2729 ;
     width: 250px;
     display: block;
     margin: auto;
 }
 
 h2 {font-size: 35px;
-    color:#e0e0e0;
+    color:#fff;
 font-family:OS Aran_400FFC; }
+
+
 
 p {font-family:OS Aran_400FFC;
     font-weight: 400;
-    font-size: 30px;}
-
+    font-size: 30px;
+color: #fff;}
+h3{ color: #fff;
+font-size: 33px; }
 .button {
     text-decoration: none;
     color: #a22628;
@@ -97,4 +102,21 @@ p {font-family:OS Aran_400FFC;
 .container {text-align: center;
     padding: 15px;
     
+}
+
+.features {
+    background:#000;
+    text-align: center;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 70px;
+    
+}
+.features img{
+    max-width: 130px;
 }
