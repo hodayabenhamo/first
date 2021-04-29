@@ -67,8 +67,8 @@ h3{ color: #fff;
 font-size: 33px; }
 .button {
     text-decoration: none;
-    color: #a22628;
-    background:#c5c5c5;
+    color:#FFF; 
+    background:#a22628;
     padding:  12px 12px;
     display: inline-block;
     font-size: 18px;
@@ -127,7 +127,7 @@ font-size: 33px; }
 
 footer {
     background:  #a22628;
-    color: #000;
+    color:#fff;
     text-align: center;
     padding: 2px;
     
@@ -168,3 +168,98 @@ nav a:hover{
 .current a {
   font-weight: bold;
 }
+
+
+
+
+
+video {
+max-width: 800px;
+width: auto;
+ margin-top:60px   
+}
+
+.tuner .container {
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+h2 {
+    font-size: 50px;
+    color:crimson
+}
+
+.tuner {
+    background: #EAEAEA;
+    position: relative;
+}
+
+
+
+.text p{
+    color:#000;
+}
+
+.custom-shape-divider-top-1619709649 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1619709649 svg {
+    position: relative;
+    display: block;
+    width: calc(116% + 1.3px);
+    height: 76px;
+}
+
+.custom-shape-divider-top-1619709649 .shape-fill {
+    fill: #000000;
+}
+.text {
+    margin-top: 25px;
+}
+
+.opening {
+    list-style: none;
+    padding: 0;
+  text-align: center;
+   max-width: 800px;
+    margin: auto;
+}
+.opening li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 20px
+  
+}
+.line{
+    flex: 1;
+    border-bottom: 1px solid #EAEAEA;
+    height: 19px;
+    margin: 0 5px;
+    
+}
+
+
+
+.opening-wrap img{
+    width: 100px;
+    margin: auto;
+    display: block;
+    
+}
+.opening-wrap h1{
+    text-align: center;
+    margin-top: 0;
+}
+.opening-wrap h1:after{
+    margin: auto;
+}
+
+
