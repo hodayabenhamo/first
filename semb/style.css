@@ -83,9 +83,9 @@ font-size: 33px; }
     content: " >";
 }
 .container {
-    max-width: 1500px;
+    max-width: 1000px;
     margin: auto;
-    
+    margin-top: 15px
 }
 
 .banner {
@@ -131,7 +131,8 @@ footer {
     background:  #a22628;
     color:#fff;
     text-align: center;
-    padding: 2px;
+    padding: 1px;
+    padding-top: 60px
     
 }
 footer a{
@@ -384,4 +385,43 @@ input:focus, textarea:focus {
 .contact .banner{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
     url(img/micro.jpg);
+}
+
+    
+.fotorama__dot.fotorama__dot {
+    border-color:  #a22628;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+}
+.img-wrap {
+	  position: relative;
+	}
+	.caption {
+	  font-size: 16px;
+	  margin: 0;
+	  text-align: center;
+	  background: linear-gradient(transparent, rgba(0,0,0,0.7));
+	  color: #fff;
+	  padding: 5px;
+	  padding-top: 40px;
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	}
+
+
+
+.our-story p {
+    font-size: 26px;
+    text-align: right;
+}
+
+.our-story h2{
+    margin: auto;
+    text-align: right;
 }
